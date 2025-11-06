@@ -1,0 +1,16 @@
+# Ignora o Ambiente Virtual Python
+.venv/
+venv/
+*.venv/
+
+# Ignora os arquivos de dados (MUITO IMPORTANTE)
+data/
+
+# Ignora caches do Python e Jupyter
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+
+# Ignora arquivos de sistema
+.DS_Store
+Thumbs.db
